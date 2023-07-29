@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">Good Vives</h1>
+  <div class="master_div_style">
+    <p id="description">Tell us something about yourself</p>
+    <form action="/do-something" id="survey_form">
+      <div class="form_rows">
+        <div class="labels">
+          <label for="name" id="name_label">Name</label>
+        </div>
+        <div class="fields">
+          <input type="text" id="name" class="input_fields" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form_rows">
+        <div class="labels">
+          <label for="email" id="email_label">Email</label>
+        </div>
+        <div class="fields">
+          <input type="email" id="email" class="input_fields" placeholder="Enter your Email Address" required>
+        </div>
+      </div>
+
+      <div class="form_rows">
+        <div class="labels">
+          <label for="number" id="number_label">On a scale of 1 - 10, how was your day?</label>
+        </div>
+        <div class="fields">
+          <input type="number" id="number" class="input_fields" placeholder="Enter a number between 1 - 10" required>
+        </div>
+
+        <div class="form_rows">
+        <div class="labels">
+          <label for="dropdown" id="drowpdown_label">Where did it happen?</label>
+        </div>
+        <div class="fields">
+          <section id="dropdown" class="dropdown" name="Location of positive event ">
+            <option value="home">At Home</option>
+            <option value="commute">On my commute</option>
+            <option value="work">At work</option>
+            <option value="outside">On the street</option>
+            <option value="others">Other</option>
+          </section>
+        </div>
+      </div>
+
+      <div class="form_rows">
+        <div class="labels">
+          <label for="name" id="name_label">Name</label>
+        </div>
+        <div class="fields">
+          <input type="text" id="name" class="input_fields" placeholder="Enter your name" required>
+        </div>
+        
+        <div class="form_rows">
+        <div class="labels">
+          <label for="name" id="name_label">Name</label>
+        </div>
+        <div class="fields">
+          <input type="text" id="name" class="input_fields" placeholder="Enter your name" required>
+        </div>
+      </div>
+      <div class="form_rows">
+        <div class="labels">
+          <label for="name" id="name_label">Name</label>
+        </div>
+        <div class="fields">
+          <input type="text" id="name" class="input_fields" placeholder="Enter your name" required>
+        </div>
+        <div class="form_rows">
+        <div class="labels">
+          <label for="name" id="name_label">Name</label>
+        </div>
+        <div class="fields">
+          <input type="text" id="name" class="input_fields" placeholder="Enter your name" required min="0" max="10">
+        </div>
+      </div>
+    </form>
+  </div>
+  
+</body>
+</html>
