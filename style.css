@@ -1,8 +1,26 @@
-span.span1{
-    float: right;
-    margin: 1em;
-    width: 200px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    background-color: green;
+}
+img{
+    max-width: 50vh;
     
-    background-color: blue;
-    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: 1px solid black;
+    background-color: green;
+    box-shadow: 2px;
+    margin: 2rem;
+
 }
