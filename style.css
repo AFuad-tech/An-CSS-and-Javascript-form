@@ -3,28 +3,74 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-h4{
-  display: block;
-  font-size: 3rem;
-  font-weight: bolder;
-  text-align: center;
-  text-decoration: underline;
+body{
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
 }
-.nav-center{
-  border: .1px solid black;
-}
-ul{
-  text-decoration: none;
-}
-li{
-  text-decoration: none;
-  font-size: 2rem;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-li:hover{
-  color: white;
+header{
   background-color: black;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: .5rem;
+}
+.navbar a{
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: white;
+}
+.navbar a:hover, .navbar a:active{
+  color: black;
+  background-color: white;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 768px){
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    padding: .4rem 1rem;
+  }
+  .navbar a{
+    display: block;
+    padding: 10px 0;
+  }
+
+ }
+
+.company-info{
+  background-color: #f5f5f5;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.conpany-logo{
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+.services{
+  background-color: black;
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+
+}
+.services ul{
+  list-style: none;
+  padding: 0;
+}
+
+.services li{
+  margin-bottom: .5rem;
 }
